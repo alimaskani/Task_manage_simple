@@ -1,0 +1,37 @@
+@font-face {
+    font-family: IRANRounded;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/eot/IRAN-Rounded.eot');
+    src: url('../fonts/eot/IRAN-Rounded.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../fonts/woff/IRAN-Rounded.woff') format('woff')  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+
+body{
+    font-family:IRANRounded ;
+    direction: rtl;
+    text-align: right !important;
+}
+
+.page-item:first-child .page-link{
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+
+    border-top-right-radius: 0.35rem;
+    border-bottom-right-radius: 0.35rem;
+}
+.page-item:last-child .page-link{
+    border-top-right-radius: 0;
+    border-bottom-right-radius:0;
+
+    border-top-left-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
+}
+
+
+.form-control-invalid{
+    border-color: #dc3545;
+}
+
